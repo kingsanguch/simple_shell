@@ -30,7 +30,7 @@ return (-1);
 	if (pid == 0)
 	{
 		/* Child process */
-		if (execve(command, args, env) == -1)
+		if (execve(command, args, environ) == -1)
 		{
 			perror("execve");
 			_exit(EXIT_FAILURE);

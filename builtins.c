@@ -12,7 +12,6 @@ exit(status);
 }
 void env_shell(void)
 {
-int i = 0;
 char **env;
 
 for (env = environ; *env != NULL; env++)
