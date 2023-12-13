@@ -10,6 +10,10 @@ free_memory(NULL, NULL); /* Free allocated memory */
 
 exit(status);
 }
+/**
+ * env_shell - Display the environment variables.
+ */
+
 void env_shell(void)
 {
 char **env;
